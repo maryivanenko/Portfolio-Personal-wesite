@@ -4,24 +4,19 @@ body {
     padding: 64px 20px 220px 20px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 }
 
 h3 {
-   
-    font-family: Manrope;
     font-size: 24px;
     font-weight: 600;
     line-height: 26px;
-    text-align: left;
-    text-underline-position: from-font;
-    text-decoration-skip-ink: none;
     color: #F5FA93;
 
 }
 
-mt-64 {
+.mt-64 {
     margin-top: 64px;
 }
 
@@ -49,9 +44,23 @@ mt-64 {
     color: white;
 }
 
-.write-link {
+.write-action {
     margin-top: 42px;
+
+    display: flex;
+    gap: 8px;
+    background-color: #F5FA93;
+    color: #000000;
+    max-width: 232px;
+    border-radius: 18px;
+    padding: 18px 14px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 25px;
 }
+#на заголовок класс и левый паддинг 24px
 
 .social-links {
     margin: 32px 0 0 0;
@@ -70,11 +79,17 @@ mt-64 {
 }
 
 .bio {
+    display: flex;
+    flex-direction: column;
     color: white;
     padding: 24px;
+    gap: 32px;
 }
 
 .work-experience {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
     color: white;
     padding: 24px;
 }
