@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    background: #140E17;
+    padding: 64px 20px 220px 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+h3 {
+   
+    font-family: Manrope;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 26px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #F5FA93;
+
+}
+
+mt-64 {
+    margin-top: 64px;
+}
+
+.main-border {
+    border: 1px solid #333333;
+    border-radius: 18px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.about-me {
+    display: flex;
+    align-items: center;
+    gap: 112px;
+}
+
+.short-description {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    color: white;
+}
+
+.write-link {
+    margin-top: 42px;
+}
+
+.social-links {
+    margin: 32px 0 0 0;
+    display: flex;
+    gap: 24px;
+    flex-wrap: wrap;
+} 
+
+.social-link {
+    padding: 8px 14px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+}
+
+.bio {
+    color: white;
+    padding: 24px;
+}
+
+.work-experience {
+    color: white;
+    padding: 24px;
+}
+
+.job-list {
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.portfolio .items {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+
+}
+
+.portfolio .items .item {
+    display: flex;
+    color: black;
+    background:  #F5FA93;
+    align-items: center;
+    gap: 48px;
+    border-radius: 32px;
+    padding: 32px;
+}
