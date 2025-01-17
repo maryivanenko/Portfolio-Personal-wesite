@@ -82,10 +82,9 @@ h3 {
     line-height: 25px;
 }
 
-.write-action::after {
-    content: "./icons/Icon.svg";
-    padding-left: 8px;
-
+.btn-write {
+    width: 100%;
+    text-align: center;
 }
 
 .socials h3 {
