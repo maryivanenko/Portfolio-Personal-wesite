@@ -212,6 +212,7 @@ line-height: 28px;
     display: flex;
     flex-direction: column;
     gap: 18px;
+    width: 100%;
 }
 
 .project .project-name {
